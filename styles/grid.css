@@ -1,0 +1,55 @@
+.flex-container .row {
+  display: flex;
+}
+
+.flex-container .row > * {
+  flex: auto;
+}
+
+.flex-container .row > .column-1 {
+  flex: calc(1 / 12);
+}
+
+.flex-container .row > .column-2 {
+  flex: calc(2 / 12);
+}
+
+.flex-container .row > .column-3 {
+  flex: calc(3 / 12);
+}
+
+.flex-container .row > .column-4 {
+  flex: calc(4 / 12);
+}
+
+.flex-container .row > .column-5 {
+  flex: calc(5 / 12);
+}
+
+.flex-container .row > .column-6 {
+  flex: calc(6 / 12);
+}
+
+.flex-container .row > .column-7 {
+  flex: calc(7 / 12);
+}
+
+.flex-container .row > .column-8 {
+  flex: calc(8 / 12);
+}
+
+.flex-container .row > .column-9 {
+  flex: calc(9 / 12);
+}
+
+.flex-container .row > .column-10 {
+  flex: calc(10 / 12);
+}
+
+.flex-container .row > .column-11 {
+  flex: calc(11 / 12);
+}
+
+.flex-container .row > .column-12 {
+  flex: 100%;
+}
