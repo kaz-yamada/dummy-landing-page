@@ -16,19 +16,59 @@
   color: #000000;
 }
 
-#section-one {
-  /* background-image: url("https://picsum.photos/1280/720?blur"); */
-  background-image: url("https://i.picsum.photos/id/615/1280/720.jpg?blur=2");
+.header {
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all ease-in 0.2s;
+}
+
+.navbar .menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  margin: 0;
+  color: #ffffff;
+}
+
+.header .sticky.navbar {
+  background: #ffffff;
+  position: fixed;
+}
+
+.header .sticky.navbar .menu a {
+  color: #000000;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://i.picsum.photos/id/615/1280/720.jpg?blur=5");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
   display: flex;
-
   align-items: center;
 }
 
-.left {
+.white-text {
   color: #ffffff;
 }
 
@@ -58,7 +98,7 @@
   margin: auto;
 }
 
-#cards {
+#plans {
   background-color: #b4e4f3;
 }
 

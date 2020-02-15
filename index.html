@@ -14,18 +14,32 @@
   </head>
   <body>
     <div class="header">
-      <div class="navbar">
+      <div id="navbar" class="navbar">
         <div class="left">
-          <div class="brand">Brand</div>
+          <div class="brand menu">
+            <a href="#">Brand</a>
+          </div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+          <ul class="menu">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#plans">Plans</a>
+            </li>
+            <li>
+              <a href="#clients">Cleints</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="main">
-      <div class="section" id="section-one">
+      <div id="hero" class="section">
         <div class="container">
           <div class="row">
-            <div class="left column one-half">
+            <div class="white-text column one-half">
               <h1 class="title">Lacus suspendisse faucibus interdum posuere</h1>
               <div class="subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -88,7 +102,7 @@
           </div>
         </div>
       </div>
-      <div id="cards" class="section">
+      <div id="plans" class="section">
         <div class="container">
           <h1 class="section-heading center">Lorem ipsum dolor sit amet</h1>
           <div class="row">
@@ -155,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div id="gallery" class="section">
+      <div id="clients" class="section">
         <div class="container">
           <h3 class="section-heading center">Lorem ipsum dolor sit amet</h3>
           <div class="row">
@@ -178,16 +192,16 @@
           </div>
         </div>
       </div>
-    </div>
-    <div id="call-to-action" class="section">
-      <div class="container">
-        <div class="row">
-          <h2 class="section-heading center">Ullamcorper sit amet</h2>
-          <h5 class="section-heading center">
-            Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc
-            aliquet
-          </h5>
-          <button class="button button-white">Start your trial</button>
+      <div id="call-to-action" class="section">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-heading center">Ullamcorper sit amet</h2>
+            <h5 class="section-heading center">
+              Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc
+              aliquet
+            </h5>
+            <button class="button button-white">Start your trial</button>
+          </div>
         </div>
       </div>
     </div>
@@ -201,5 +215,6 @@
         <a href="#footer" class="link">Three</a>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
